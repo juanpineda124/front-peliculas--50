@@ -15,6 +15,7 @@ export default function Table({
       <thead>
         <tr>
           <th scope="col">#</th>
+          <th scope="col">ID</th>
           <th scope="col">Nombre</th>
           <th scope="col">Estado</th>
           <th scope="col">Fecha creacion</th>
@@ -28,6 +29,7 @@ export default function Table({
             return (
               <tr key={index}>
                 <th scope="row">{ index + 1 }</th>
+                <td>{_id}</td>
                 <td>{nombre}</td>
                 <td>{estado ? 'Activo': 'Inactivo'}</td>
                 <td>{fechaCreacion}</td>

@@ -96,7 +96,7 @@ export default function Modal({
             </textarea>
           </div>
           <div className="mb-3">
-            <label for="message-text" className="col-form-label">Genero:</label>
+            <label for="message-text" className="col-form-label">Ingrese el ID del genero:</label>
             <textarea 
               className="form-control"
               id="message-text"
@@ -106,7 +106,7 @@ export default function Modal({
             </textarea>
           </div>
           <div className="mb-3">
-            <label for="message-text" className="col-form-label">Director:</label>
+            <label for="message-text" className="col-form-label">Ingrese el ID del director:</label>
             <textarea 
               className="form-control" 
               id="message-text"
@@ -116,7 +116,7 @@ export default function Modal({
             </textarea>
           </div>
           <div className="mb-3">
-            <label for="message-text" className="col-form-label">Productora:</label>
+            <label for="message-text" className="col-form-label">Ingrese el ID de la productora:</label>
             <textarea 
               className="form-control" 
               id="message-text"
@@ -126,7 +126,7 @@ export default function Modal({
             </textarea>
           </div>
           <div className="mb-3">
-            <label for="message-text" className="col-form-label">Tipo:</label>
+            <label for="message-text" className="col-form-label">Ingrese el ID del tipo:</label>
             <textarea 
               className="form-control" 
               id="message-text"
